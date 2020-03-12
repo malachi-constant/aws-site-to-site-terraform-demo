@@ -70,3 +70,15 @@ resource "aws_customer_gateway" "this" {
     Name = join("-",[var.prefix,"cgw"])
   }
 }
+
+###########################
+# Step 4: Create VGW
+###########################
+
+resource "aws_vpn_gateway" "vpn" {
+  vpc_id = module.vpc-b.vpc
+
+  tags = {
+    Name = join("-",[var.prefix,"vgw"])
+  }
+}
