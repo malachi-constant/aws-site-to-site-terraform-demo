@@ -12,5 +12,4 @@ public_key = "SOME_PUBLIC_KEY_STRING"
 ' > example.tfvars`
 
 ## Step 2: Initialize & Run Terraform
-`terraform init`
-`terraform apply -var-file="example.tfvars"`
+`terraform init && terraform apply -var-file="example.tfvars"`
