@@ -13,3 +13,5 @@ public_key = "SOME_PUBLIC_KEY_STRING"
 
 ## Step 2: Initialize & Run Terraform
 `terraform init && terraform apply -var-file="example.tfvars"`
+**Expected Output:** ![Step 2](/images/step2.png)
+Format: ![Alt Text](url)
