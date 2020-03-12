@@ -29,7 +29,7 @@ resource "aws_key_pair" "this" {
 }
 
 ###############
-# Networking
+# Step 1: VPCs
 ###############
 
 module "vpc-a" {
@@ -48,9 +48,9 @@ module "vpc-a" {
 }
 
 
-###############
-# Compute
-###############
+###########################
+# Step 2: Vyos Router vpc-a
+###########################
 
 # Create Router for on-prem demo
 # module "vyos-router" {
