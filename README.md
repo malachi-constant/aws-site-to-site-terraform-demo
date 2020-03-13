@@ -5,11 +5,8 @@ WIP: Demonstrate Dynamic Site-to-site VPNs on AWS with Terraform &amp; vyos
 - AWS Account Access
 
 ## Step 1: Set Your Variables
-`echo 'profile    = "SOME_PROFILE_NAME"
-region     = "SOME_AWS_REGION"
-prefix     = "SOME_PREFIX"
-public_key = "SOME_PUBLIC_KEY_STRING"
-' > example.tfvars`
+`echo "profile    = 'SOME_PROFILE_NAME'\nregion     = 'SOME_AWS_REGION'\nprefix     = 'SOME_PREFIX'\npublic_key = 'SOME_PUBLIC_KEY_STRING'
+" > example.tfvars`
 
 ## Step 2: Initialize & Run Terraform
 `terraform init && terraform apply -var-file="example.tfvars"`  
