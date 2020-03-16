@@ -1,5 +1,5 @@
 ###########################
-# Step 3: Create CGW
+# Step 5: Create CGW
 ###########################
 
 resource "aws_customer_gateway" "this" {

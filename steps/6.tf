@@ -1,5 +1,5 @@
 ###########################
-# Step 4: Create VGW
+# Step 6: Create VGW
 ###########################
 
 resource "aws_vpn_gateway" "vpn" {

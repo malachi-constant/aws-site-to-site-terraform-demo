@@ -1,6 +1,6 @@
 
 ###########################
-# Step 2: Vyos Router vpc-a
+# Step 4: Vyos Router vpc-a
 ###########################
 
 # Create Router for on-prem demo
