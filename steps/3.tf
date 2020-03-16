@@ -5,14 +5,14 @@
 
 module "vpc-a" {
   source   = "./modules/vpc"
-  vpc_name = join("-",[var.prefix,"a"])
+  vpc_name = join("-", [var.prefix, "a"])
   octet    = "88"
   region   = local.region
 
 }
 module "vpc-b" {
   source   = "./modules/vpc"
-  vpc_name = join("-",[var.prefix,"b"])
+  vpc_name = join("-", [var.prefix, "b"])
   octet    = "98"
   region   = local.region
 }

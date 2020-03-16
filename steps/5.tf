@@ -8,6 +8,6 @@ resource "aws_customer_gateway" "this" {
   type       = "ipsec.1"
 
   tags = {
-    Name = join("-",[var.prefix,"cgw"])
+    Name = join("-", [var.prefix, "cgw"])
   }
 }

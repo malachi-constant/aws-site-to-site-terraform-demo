@@ -10,3 +10,6 @@ variable "public_key" {
 variable "prefix" {
   description = "Fun name for your project !"
 }
+variable "my_public_ip" {
+  description = "Public IP of your workstation"
+}
