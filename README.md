@@ -18,4 +18,16 @@ WIP: Demonstrate Dynamic Site-to-site VPNs on AWS with Terraform &amp; vyos
 
 ## Step 4: Create Vyos instance in VPC A
 `cat steps/4.tf >> main.tf && terraform init && terraform apply -var-file="example.tfvars"`  
-**Expected Output:** 
+**Expected Output:**
+
+## Step 5: Create Customer Gateway to represent vyos router in VPC A
+`cat steps/5.tf >> main.tf && terraform init && terraform apply -var-file="example.tfvars"`  
+**Expected Output:**
+
+## Step 6: Create Virtual Private Gateway in VPC B
+`cat steps/6.tf >> main.tf && terraform init && terraform apply -var-file="example.tfvars"`  
+**Expected Output:**
+
+## Step 7: Create VPN Connection
+`cat steps/7.tf >> main.tf && terraform init && terraform apply -var-file="example.tfvars"`  
+**Expected Output:**
