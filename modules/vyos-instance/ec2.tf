@@ -14,6 +14,6 @@ resource "aws_instance" "this" {
   key_name               = var.key_pair
 
   tags = {
-    Name = join("-", [local.prefix, "vyos"])
+    Name = join("-", [var.prefix, "vyos"])
   }
 }

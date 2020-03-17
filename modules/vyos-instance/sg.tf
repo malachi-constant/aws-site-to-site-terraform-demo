@@ -1,5 +1,5 @@
 resource "aws_security_group" "this" {
-  name        = join("-", [local.prefix, "vyos"])
+  name        = join("-", [var.prefix, "vyos"])
   description = "Allow ssh traffic from certain IP range to vyos_instance on port 22"
   vpc_id      = var.vpc_id
 
