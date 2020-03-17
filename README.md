@@ -31,3 +31,6 @@ WIP: Demonstrate Dynamic Site-to-site VPNs on AWS with Terraform &amp; vyos
 ## Step 7: Create VPN Connection
 `cat steps/7.tf >> main.tf && terraform init && terraform apply -var-file="example.tfvars"`  
 **Expected Output:**
+
+## Step n: Terraform Destroy
+`terraform destroy -var-file="example.tfvars"`
