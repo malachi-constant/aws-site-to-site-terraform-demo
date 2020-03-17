@@ -13,3 +13,6 @@ variable "prefix" {
 variable "my_public_ip" {
   description = "Public IP of your workstation"
 }
+variable "vyos_ami_id" {
+  description = "VYOS AMI Id"
+}
